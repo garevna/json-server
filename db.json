@@ -34,8 +34,7 @@
       "id": 0,
       "userID": 2,
       "title": "My first post here",
-      "body": "It's really wonder!",
-
+      "body": "It's really wonder!"
     },
     {
       "id": 1,
@@ -47,8 +46,7 @@
       "id": 2,
       "userId": 2,
       "title": "*Бетономешалка",
-      "body": "Это жесть. Собираюсь купить. Лучше, чем АК!",
-
+      "body": "Это жесть. Собираюсь купить. Лучше, чем АК!"
     },
     {
       "id": 3,
@@ -60,8 +58,7 @@
       "id": 4,
       "userId": 3,
       "title": "XMLHttpRequest",
-      "body": "Method POST",
-
+      "body": "Method POST"
     }
   ],
   "comments": [
