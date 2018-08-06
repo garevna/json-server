@@ -1,16 +1,93 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "users": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Владимир",
+      "lastName": "Кононенко",
+      "email": "vladimir.kononenko@gmail.com",
+      "photoURL": "https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_960_720.png"
+    },
+    {
+      "id": 1,
+      "name": "Никита",
+      "lastName": "Терещенко",
+      "email": "nikita.tereshenko@gmail.com",
+      "photoURL": "https://i.pinimg.com/originals/3d/47/4f/3d474f82ff71595e8081f9a120892ae8.gif"
+    },
+    {
+      "id": 2,
+      "name": "Tim",
+      "lastName": "Wagner",
+      "email": "timVagner@gmail.com",
+      "photoURL": "https://vignette.wikia.nocookie.net/yogscast/images/8/8a/Avatar_Turps_2015.jpg"
+    },
+    {
+      "id": 3,
+      "name": "James",
+      "lastName": "Bond",
+      "email": "jamesBond@gmail.com",
+      "photoURL": "http://static.tumblr.com/6ae44fd5ff8643cfd516d2dfd186bef0/1jppqlm/1SGnasfsh/tumblr_static_15kq4ibxvscgw000wcgk0wo0s.png"
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "userID": 2,
+      "title": "My first post here",
+      "body": "It's really wonder!",
+
+    },
+    {
+      "id": 1,
+      "userID": 1,
+      "title": "Автопробег",
+      "body": "Завтра планируется автопробег. Участвовать могут все желающие"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "*Бетономешалка",
+      "body": "Это жесть. Собираюсь купить. Лучше, чем АК!",
+
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "JS",
+      "body": "Look here - there are some samples"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "title": "XMLHttpRequest",
+      "body": "Method POST",
+
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "postId": 0,
+      "userId": 1,
+      "body": "wow!"
+    },
+    {
+      "id": 1,
+      "postId": 0,
+      "userId": 2,
+      "body": "Hi, I'm wonder!"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "body": "It's really wonder!"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 2,
+      "body": "Ударим автопробегом по бездорожью и разгильдяйству!"
     }
   ]
 }
